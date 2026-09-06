@@ -1,0 +1,36 @@
+Plan: Have a way to organize data for CTFs
+- What kind of data?
+    - Solutions
+    - Challenges
+    - Notes
+    - Scripts
+1. Seperate challenges by CTF
+    - In of each challenge should be a link to the solution
+    - Challenges/
+        - CTFA/
+            - ChallengeA/
+                - script.py -> ../../../Scripts/ChallengeA.py
+                - solution.md -> ../../../Solutions/A.md
+            - ChallengeB/
+        - CTFB/
+        - ChallengeA/
+2. Centralize all solutions, notes, and scripts
+    - If a note or solution has a script it should link to it
+    - Being that certain solutions may be similar to certain notes it'll be a first-come-first-serve & is-late-is-linked situation
+        - Generally, a solution comes from challenges and notes come from resources
+    - Solutions/
+        - Format: `Problem/Question \n Research, Notes, Solution` 
+        - A.md
+        - B.md
+        - C.md
+    - Notes/
+        - Format: `Concept \n Information`
+        - conceptA.md
+        - conceptB.md
+        - conceptC.md
+    - Scripts/
+        - Scripts should be documented
+        - FunctionA.py
+        - FunctionB.py
+        - FunctionC.py
+        - ChallengeA.py
