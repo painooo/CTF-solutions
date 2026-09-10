@@ -93,6 +93,14 @@ A is congruent to B(mod C)
     - If the GCD of the number and C = 1 then it's a coprime
     - GCD can be figured out with the [Euclidean Algorithm](Euclidean_Algorithm.md) 
 	- A * B is congruent to 1 mod C
-		- We need an A that is 1 past a multiply of C
-		- And such number is a coprime
-    
+		- This falls under the '1' bucket and thus we need an A that is 1 past a multiple of C
+		- The GCD is involved because if the two numbers share a factor then there is no possiblity for A to get 1 past any multiply of C
+			- Ex) 2 mod 6
+				- 2 * 1 = 2
+				- 2 * 2 = 4
+				- 2 * 3 = 6 (We hit a multiple)
+				- 2 * 4 = 8
+				- 2 * 5 = 10
+				- 2 * 6 = 12 (We hit a multiple)
+				- ...
+				- GCD(2, 6) = 2
