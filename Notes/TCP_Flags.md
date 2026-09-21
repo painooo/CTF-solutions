@@ -19,3 +19,6 @@
         - Used to order packets
 8. FIN: Finish
     - Sender has no more data to send
+
+- In a 3-way handshake why do both sender and reciever need to send each other their initial sequence number (ISN)?
+    - It's so down the line, they can acknowledge each others previous packet
