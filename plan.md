@@ -16,8 +16,8 @@ Plan: Have a way to organize data for CTFs
         - ChallengeA/
 2. Centralize all notes and scripts
     - If a note or solution has a script it should link to it
-    - Being that certain solutions may be similar to certain notes it'll be a first-come-first-serve & is-late-is-linked situation
-        - Generally, a solution comes from challenges and notes come from resources
+    - Notes should follow the concept of first-come-is-created & last-file-is-linked
+    - After creating notes it should be decoupled for easy reference & link
     - Notes/
         - Format: `Concept \n Information`
         - conceptA.md
