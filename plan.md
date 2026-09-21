@@ -5,17 +5,17 @@ Plan: Have a way to organize data for CTFs
     - Notes
     - Scripts
 1. Seperate challenges by CTF
-    - In of each challenge should be a link to the script
+    - If a solution references a note it should link to it
     - Challenges/
         - CTFA/
             - ChallengeA/
-                - script.py -> ../../../Scripts/ChallengeA.py
-                - solution.md -> solution.md
+                - script.py
+                - solution.md
             - ChallengeB/
         - CTFB/
-        - ChallengeA/
+            - ChallengeA/
 2. Centralize all notes and scripts
-    - If a note or solution has a script it should link to it
+    - If a note has a script it should link to it
     - Notes should follow the concept of first-come-is-created & last-file-is-linked
     - After creating notes it should be decoupled for easy reference & link
     - Notes/
@@ -28,4 +28,3 @@ Plan: Have a way to organize data for CTFs
         - FunctionA.py
         - FunctionB.py
         - FunctionC.py
-        - ChallengeA.py
