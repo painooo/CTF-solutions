@@ -16,8 +16,10 @@ Plan: Have a way to organize data for CTFs
             - ChallengeA/
 2. Centralize all notes and scripts
     - If a note has a script it should link to it
-    - Notes should follow the concept of first-come-is-created & last-file-is-linked
-    - After creating notes it should be decoupled for easy reference & link
+    - Notes are created by..
+        1. Noting everything down
+        2. Revising wording and facts
+        3. Seperating them by headers based on their content (same content together) 
     - Notes/
         - Format: `Concept \n Information`
         - conceptA.md
