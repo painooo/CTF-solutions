@@ -19,7 +19,8 @@ Plan: Have a way to organize data for CTFs
     - Notes are created by..
         1. Noting everything down
         2. Revising wording and facts
-        3. Seperating them by headers based on their content (same content together) 
+        3. Seperate notes by the source material
+            - Except for a note is formed by stitching a collage of random info   
     - Notes/
         - Format: `Concept \n Information`
         - conceptA.md
