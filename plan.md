@@ -1,34 +1,33 @@
-Plan: Have a way to organize data for CTFs
-- What kind of data?
-    - Solutions
-    - Challenges
-    - Notes
-    - Scripts
-1. Seperate challenges by CTF
-    - If a solution references a note it should link to it
-    - Each solution should explain how they got to that point
-    - Challenges/
-        - CTFA/
-            - ChallengeA/
-                - script.py
-                - solution.md
-            - ChallengeB/
-        - CTFB/
-            - ChallengeA/
-2. Centralize all notes and scripts
-    - If a note has a script it should link to it
-    - Notes are created by..
-        1. Noting everything down
-        2. Revising wording and facts
-        3. Seperate notes by the source material
-            - Except for a note is formed by stitching a collage of random info   
-    - Notes/
-        - Format: `Concept \n Information`
-        - conceptA.md
-        - conceptB.md
-        - conceptC.md
-    - Scripts/
-        - Scripts should be documented
-        - FunctionA.py
-        - FunctionB.py
-        - FunctionC.py
+# Plan: Have a way to organize CTF files, scripts, and data
+- Challenges/ -> Stores a catalog of CTFs
+    - 'CTF'/ -> Stores a list of challenges
+        - 'challenge'/
+            - Each challenge must contain a `solution.md` file and may include scripts or other files
+            - `solution.md` -> should show goal, process, and solution
+              - Be specific about the goal to best fit the challenge (goal may change)
+            ```
+            # challenge_name
+            - Goal: solve this challenge
+            1. Found this which tells us to do this
+            2. Found that
+            3. Tried this 
+            4. Tried this which basically does this
+            
+            ## Solution
+            1. Do this
+            2. Inject this
+            3 Voila. Solved
+            ```
+- Scripts/ -> Stores random collection of notes from `Notes/`
+- Notes/ -> Stores notes
+  - Groups of notes are seperated by source
+  - 'source'/
+    - Each note is seperated & titled by topic and/or purpose usually defined by the source
+    - Example `note.md`
+    ```
+    # note_title
+    - Dilly Dally
+    - `Ax + Bx = Cx`
+    - In 1939, asdas
+    ```
+
