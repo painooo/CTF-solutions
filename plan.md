@@ -6,6 +6,7 @@ Plan: Have a way to organize data for CTFs
     - Scripts
 1. Seperate challenges by CTF
     - If a solution references a note it should link to it
+    - Each solution should explain how they got to that point
     - Challenges/
         - CTFA/
             - ChallengeA/
