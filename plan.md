@@ -18,16 +18,42 @@
             2. Inject this
             3 Voila. Solved
             ```
-- Scripts/ -> Stores random collection of notes from `Notes/`
+- Scripts/ -> Stores random scripts I wrote and don't wanna write again
 - Notes/ -> Stores notes
-  - Groups of notes are seperated by source
-  - 'source'/
-    - Each note is seperated & titled by topic and/or purpose usually defined by the source
-    - Example `note.md`
-    ```
-    # note_title
-    - Dilly Dally
-    - `Ax + Bx = Cx`
-    - In 1939, asdas
-    ```
-
+    - Each note is then seperated by its source
+    - resource/ -> Stores notes related to that resource
+        - `src.txt` -> Stores the link to the resource
+        - Notes are named according to the resource module or their purpose (e.g. A note all about the inner workings of car engines will be named "car-engine.md")
+        - Notes are created by..
+            1. "Globbing" together information in bullet points, no thinking should be required, just bullet
+            ```
+            # Note (temp)
+            - Info_A
+            - Equation_B
+            - Script_A
+            - Info_C
+            - Info_B
+            - Script_B
+            - Script_C
+            ```
+            2. Determine purpose & if it has to seperated
+            ```
+            Purpose: A, B, & C
+            ```
+            3. Revise & seperate information based on that purpose
+            ```
+            # Note A
+            - Info_A
+            - Script_A
+            ```
+            ```
+            # Note B
+            - Info_B
+            - Script_B
+            - Equation_B
+            ```
+            ```
+            # Note C
+            - Info_C
+            - Script_C
+            ```
